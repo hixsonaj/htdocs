@@ -12,36 +12,86 @@
 
 .projects {
   width: 100%;
+  text-align: justify;
+  text-align-last: center;
 }
 
 .projects li {
-  float: left;
-  width: 32%;
+  vertical-align: top;
+  width: 29%;
+  padding-left: 0.2%;
+  padding-right: 0.2%;
   display: inline-block;
-  padding-left: 1%;
   padding-top: 18px;
   padding-bottom: 18px;
 }
 
 .projects li section {
   outline: 2px solid #e5e5e5 !important;
+  position: relative;
 }
 
-.projects li section button {
+.caption {
+  position: absolute;
+  transform:translate(-50%,-50%);
+  top:85%;
+  left:50%;
+  text-align: center;
+  background:rgba(255,255,255,0.7);
+  width: 100%;
+  height: 30%;
+}
+
+.caption h1 {
+  font-family: "Roboto";
+  font-size: 2em;
+  padding-top: 1%;
+}
+
+.caption p {
+}
+
+@media (max-width: 1200px) {
+  .caption p {
+    display: none;
+  }
+}
+
+.projects li section span {
   width: 100%;
   border: none;
   background-color: transparent;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.projects li:hover {
   cursor: pointer;
+  width: 32%;
+  animation-name: grow;
+  animation-duration: 1s;
 }
 
-.projects li section button:hover {
-  background-color: #e5e5e5;
+@keyframes grow {
+  from {width: 29%;}
+  to {width: 32%;}
 }
 
-.projects li section button span i {
+.projects li:not(:hover) {
+  animation-name: shrink;
+  animation-duration: 1s;
+}
+
+@keyframes shrink {
+  from {width: 32%;}
+  to {width: 29%;}
+}
+
+
+.projects li section span i {
   text-align: center;
   font-size: 50px;
-
 }
 
 .description {
@@ -49,20 +99,8 @@
   background-color: #e5e5e5;
 }
 
-.projects p {
-  font-family: Arial;
-  padding: 6px;
-  font-size: 16px;
-}
-
-.projects h1 {
-  Padding: 6px;
-  font-family: "Roboto";
-  font-size: 24px;
-}
-
 .projects img {
-  width: 50%;
+  width: 100%;
   display: block;
   margin-left: auto;
   margin-right: auto;

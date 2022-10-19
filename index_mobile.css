@@ -20,33 +20,53 @@
 
 .projects li section{
   outline: 2px solid #e5e5e5 !important;
+  position: relative;
 }
 
-.projects li section button {
+.caption {
+  position: absolute;
+  transform:translate(-50%,-50%);
+  top:82%;
+  left:50%;
+  text-align: center;
+  background:rgba(255,255,255,0.7);
+  width: 100%;
+  height: 36%;
+}
+
+.caption h1 {
+  font-family: "Roboto";
+  font-size: 2.5em;
+  padding-top: 3.5%;
+}
+
+.caption p {
+
+}
+
+@media (max-width: 400px) {
+  .caption p {
+    display: none;
+  }
+}
+
+.caption span {
   width: 100%;
   border: none;
   background-color: transparent;
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 
-.projects li section button span i {
+.caption span i {
   text-align: center;
   font-size: 50px;
-}
-
-.projects li section button:hover {
-  background-color: #e5e5e5;
 }
 
 .description {
   display: none;
   background-color: #e5e5e5;
-}
-
-.projects img {
-  width: 50%;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
 }
 
 .projects p {
@@ -55,8 +75,9 @@
   font-size: 16px;
 }
 
-.projects h1 {
-  Padding: 6px;
-  font-family: "Roboto";
-  font-size: 24px;
+.projects img {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
