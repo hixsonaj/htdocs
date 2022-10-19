@@ -97,13 +97,13 @@
   width: 200px;
 }
 
-@media(max-width: 720px){
+@media(max-width: 766px){
   .navigation {
     display: none;
   }
 }
 
-@media(min-width: 720px){
+@media(min-width: 766px){
   .dropdown {
     display: none;
   }

@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
+}
+
+.projects_section {
+  width: 100%;
+}
+
+.projects {
+  width: 100%;
+}
+
+.projects li{
+  margin: 18px;
+}
+
+.projects li section{
+  outline: 2px solid #e5e5e5 !important;
+}
+
+.projects li section button {
+  width: 100%;
+  border: none;
+  background-color: transparent;
+}
+
+.projects li section button span i {
+  text-align: center;
+  font-size: 50px;
+}
+
+.projects li section button:hover {
+  background-color: #e5e5e5;
+}
+
+.description {
+  display: none;
+  background-color: #e5e5e5;
+}
+
+.projects img {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.projects p {
+  font-family: Arial;
+  padding: 6px;
+  font-size: 16px;
+}
+
+.projects h1 {
+  Padding: 6px;
+  font-family: "Roboto";
+  font-size: 24px;
+}
