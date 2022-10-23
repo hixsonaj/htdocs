@@ -18,23 +18,23 @@
 
 .projects li {
   vertical-align: top;
-  width: 29%;
-  padding-left: 0.2%;
-  padding-right: 0.2%;
+  width: 28%;
+  padding-left: 0.7%;
+  padding-right: 0.7%;
   display: inline-block;
   padding-top: 18px;
   padding-bottom: 18px;
 }
 
 .projects li section {
-  outline: 2px solid #e5e5e5 !important;
+  outline: 2px solid white !important;
   position: relative;
 }
 
 .caption {
   position: absolute;
   transform:translate(-50%,-50%);
-  top:85%;
+  top:85.2%;
   left:50%;
   text-align: center;
   background:rgba(255,255,255,0.7);
@@ -68,14 +68,14 @@
 
 .projects li:hover {
   cursor: pointer;
-  width: 32%;
+  width: 31%;
   animation-name: grow;
   animation-duration: 1s;
 }
 
 @keyframes grow {
-  from {width: 29%;}
-  to {width: 32%;}
+  from {width: 28%;}
+  to {width: 31%;}
 }
 
 .projects li:not(:hover) {
@@ -84,19 +84,37 @@
 }
 
 @keyframes shrink {
-  from {width: 32%;}
-  to {width: 29%;}
+  from {width: 31%;}
+  to {width: 28%;}
 }
 
 
 .projects li section span i {
   text-align: center;
   font-size: 50px;
+  transform: rotate(0deg);
 }
 
-.description {
-  display: none;
-  background-color: #e5e5e5;
+@keyframes rotate_up {
+  from {-webkit-transform: rotate(0deg);}
+  to {-webkit-transform: rotate(180deg);}
+}
+
+@keyframes rotate_down {
+  from {-webkit-transform: rotate(180deg);}
+  to {-webkit-transform: rotate(0deg);}
+}
+
+.description h1 {
+  text-align: center;
+  font-family: "Roboto";
+  padding-top: 12px;
+}
+
+.description p {
+  margin: 32px;
+  font-size: 20px;
+  font-family: "Roboto";
 }
 
 .projects img {
@@ -104,4 +122,51 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.projects_about {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 26px;
+  width: 80%;
+  background-color: #e5e5e5;
+  height: 300px;
+  overflow: hidden;
+}
+
+.description {
+  display: none;
+  overflow: hidden;
+  position: absolute;
+  width: 80%;
+  z-index: 1;
+  background: #e5e5e5;
+}
+
+#about_projects {
+  display: block;
+  z-index: 0;
+}
+
+/* #volume_by_speed_description {
+  background-color: red;
+}
+
+#zero_four_website_description {
+  background-color: green;
+}
+
+#tree_pick_up_website_description {
+  background-color: purple;
+} */
+
+@keyframes reveal {
+  from {height: 0;}
+  to {height: 300px;}
+}
+
+@keyframes hide {
+  from {height: 300px;}
+  to {height: 0;}
 }
