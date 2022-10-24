@@ -88,7 +88,6 @@
   to {width: 28%;}
 }
 
-
 .projects li section span i {
   text-align: center;
   font-size: 50px;
@@ -103,6 +102,10 @@
 @keyframes rotate_down {
   from {-webkit-transform: rotate(180deg);}
   to {-webkit-transform: rotate(0deg);}
+}
+
+.brief {
+  display: none;
 }
 
 .description h1 {
@@ -148,18 +151,6 @@
   display: block;
   z-index: 0;
 }
-
-/* #volume_by_speed_description {
-  background-color: red;
-}
-
-#zero_four_website_description {
-  background-color: green;
-}
-
-#tree_pick_up_website_description {
-  background-color: purple;
-} */
 
 @keyframes reveal {
   from {height: 0;}

@@ -15,7 +15,7 @@
 }
 
 .projects li{
-  margin: 18px;
+  margin: 24px;
 }
 
 .projects li section{
@@ -29,7 +29,7 @@
   top:82%;
   left:50%;
   text-align: center;
-  background:rgba(255,255,255,0.7);
+  background: rgba(255,255,255,0.7);
   width: 100%;
   height: 36%;
 }
@@ -64,6 +64,24 @@
   font-size: 50px;
 }
 
+.brief {
+  display: none;
+}
+
+@keyframes show_brief {
+  from {
+    top: 82%;
+    height: 36%;
+    background: rgba(255,255,255,0.7)
+  }
+
+  to {
+    top: 50%;
+    height: 100%;
+    background: rgba(255,255,255,1)
+  }
+}
+
 .description {
   display: none;
   background-color: #e5e5e5;
@@ -80,4 +98,8 @@
   margin-left: auto;
   margin-right: auto;
   display: block;
+}
+
+.projects_about {
+  display: none;
 }
