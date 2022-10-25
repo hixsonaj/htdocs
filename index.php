@@ -82,13 +82,22 @@
 
             }
 
-            if (x_description.style.display == "block") {
+            if (x_description.style.display == "block" || x_brief.style.display == "block") {
 
               x_description.style.animation = "hide 0.5s linear";
               setTimeout(() => {x_description.style.display = "none";}, 500);
 
               x_caret.style.animation = "rotate_down 0.5s linear";
               x_caret.style.transform = "rotate(0deg)";
+
+              if (w < 767) {
+                x_caption.style.animation = "hide_brief 0.5s linear";
+                x_brief.style.animation = "hide_brief_opacity 0.5s linear";
+                x_caption.style.background = "rgba(255,255,255,0.7)";
+                x_caption.style.top = "82%";
+                x_caption.style.height = "36.2%";
+                setTimeout(() => {x_brief.style.display = "none";}, 500);
+              }
 
             } else {
 
@@ -107,28 +116,24 @@
               x_caret.style.animation = "rotate_up 0.5s linear";
               x_caret.style.transform = "rotate(180deg)";
 
-              if (y_caret.style.transform == "rotate(180deg)") {
-                y_caret.style.animation = "rotate_down 0.5s linear";
-                y_caret.style.transform = "rotate(0deg)";
-              }
-              if (z_caret.style.transform == "rotate(180deg)") {
-                z_caret.style.animation = "rotate_down 0.5s linear";
-                z_caret.style.transform = "rotate(0deg)";
-              }
 
-              if (w < 767) {
+              if (w > 767) {
+                if (y_caret.style.transform == "rotate(180deg)") {
+                  y_caret.style.animation = "rotate_down 0.5s linear";
+                  y_caret.style.transform = "rotate(0deg)";
+                }
+                if (z_caret.style.transform == "rotate(180deg)") {
+                  z_caret.style.animation = "rotate_down 0.5s linear";
+                  z_caret.style.transform = "rotate(0deg)";
+                }
+              } else {
                 x_brief.style.display = "block";
                 x_caption.style.animation = "show_brief 0.5s linear";
+                x_brief.style.animation = "show_brief_opacity 0.5s linear";
                 x_caption.style.background = "white";
                 x_caption.style.top = "50%";
-                x_caption.style.height = "100.1%";
-
-
+                x_caption.style.height = "100.2%";
               }
-
-
-
-
 
             }
           }
