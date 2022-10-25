@@ -30,7 +30,7 @@
   left:50%;
   text-align: center;
   background: rgba(255,255,255,0.7);
-  width: 100%;
+  width: 100.2%;
   height: 36.2%;
 }
 
@@ -41,7 +41,7 @@
 }
 
 @media (max-width: 400px) {
-  .caption p {
+  .tools{
     display: none;
   }
 }

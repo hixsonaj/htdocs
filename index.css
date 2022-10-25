@@ -129,12 +129,10 @@
 
 .projects_about {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 26px;
-  width: 80%;
-  background-color: #e5e5e5;
-  height: 300px;
+  margin: 18px auto;
+  width: 65%;
+  background-color: white;
+  height: 400px;
   overflow: hidden;
 }
 
@@ -142,9 +140,9 @@
   display: none;
   overflow: hidden;
   position: absolute;
-  width: 80%;
+  width: 65%;
   z-index: 1;
-  background: #e5e5e5;
+  background: white;
 }
 
 #about_projects {
@@ -154,10 +152,10 @@
 
 @keyframes reveal {
   from {height: 0;}
-  to {height: 300px;}
+  to {height: 400px;}
 }
 
 @keyframes hide {
-  from {height: 300px;}
+  from {height: 400px;}
   to {height: 0;}
 }
