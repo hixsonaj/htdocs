@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
+}
+
+.post {
+  width: 90%;
+  margin: 18 auto;
+}
+
+.post a {
+  color: blue;
+  font-family: "Roboto";
+  font-size: 15px;
+  text-decoration: underline;
+}
