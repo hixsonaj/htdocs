@@ -36,14 +36,8 @@
 
 .caption h1 {
   font-family: "Roboto";
-  font-size: 2.5em;
+  font-size: 10vw;
   padding-top: 3.5%;
-}
-
-@media (max-width: 400px) {
-  .tools{
-    display: none;
-  }
 }
 
 .caption span {
@@ -57,7 +51,7 @@
 
 .caption span i {
   text-align: center;
-  font-size: 50px;
+  font-size: 15vw;
 }
 
 @keyframes rotate_up {
@@ -120,7 +114,7 @@
 .projects p {
   font-family: Arial;
   padding: 6px;
-  font-size: 16px;
+  font-size: 5vw;
 }
 
 .projects img {

@@ -44,17 +44,11 @@
 
 .caption h1 {
   font-family: "Roboto";
-  font-size: 2em;
+  font-size: 2.8vw;
   padding-top: 1%;
 }
 
 .caption p {
-}
-
-@media (max-width: 1200px) {
-  .caption p {
-    display: none;
-  }
 }
 
 .projects li section span {
@@ -89,8 +83,9 @@
 }
 
 .projects li section span i {
+  padding-bottom: 1%;
   text-align: center;
-  font-size: 50px;
+  font-size: 4.4vw;
   transform: rotate(0deg);
 }
 
@@ -116,7 +111,7 @@
 
 .description p {
   margin: 32px;
-  font-size: 20px;
+  font-size: calc(1vw + 10px);
   font-family: "Roboto";
 }
 
@@ -130,9 +125,9 @@
 .projects_about {
   display: block;
   margin: 18px auto;
-  width: 65%;
+  width: 75%;
   background-color: white;
-  height: 400px;
+  height: 500px;
   overflow: hidden;
 }
 
@@ -140,7 +135,7 @@
   display: none;
   overflow: hidden;
   position: absolute;
-  width: 65%;
+  width: 75%;
   z-index: 1;
   background: white;
 }
@@ -152,10 +147,10 @@
 
 @keyframes reveal {
   from {height: 0;}
-  to {height: 400px;}
+  to {height: 500px;}
 }
 
 @keyframes hide {
-  from {height: 400px;}
+  from {height: 500px;}
   to {height: 0;}
 }
