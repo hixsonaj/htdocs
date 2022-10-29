@@ -9,11 +9,23 @@
 .post {
   width: 90%;
   margin: 18 auto;
+  padding: 8px;
+  border: solid;
+}
+
+.post h1 {
+  font-family: "Roboto";
+  font-size: 32px;
+}
+
+.post p {
+  font-family: "Roboto";
+  font-size: 16px;
 }
 
 .post a {
   color: blue;
   font-family: "Roboto";
-  font-size: 15px;
+  font-size: 16px;
   text-decoration: underline;
 }

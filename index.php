@@ -3,7 +3,7 @@
     <title>Zero Four</Title>
     <meta name="description" content="Do you need your Christmas tree picked up. We can help you learn how.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/bfeca9258e.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" media="screen and (min-width: 767px)" href="index.css" />
     <link rel="stylesheet" media="screen and (max-width: 766px)" href="index_mobile.css" />
   </head>
@@ -22,10 +22,10 @@
 
           var x_description = document.getElementById(id);
 
-          var w = document.documentElement.clientWidth || window.innerWidth;
+          var w = window.innerWidth;
 
-          switch (true) {
-            case id == 'volume_by_speed_description':
+          switch (id) {
+            case 'volume_by_speed_description':
               var x_caret = document.getElementById('volume_by_speed_caret');
               var x_caption = document.getElementById('volume_by_speed_caption');
               var x_brief = document.getElementById('volume_by_speed_brief');
@@ -42,7 +42,7 @@
 
               break;
 
-            case id == 'zero_four_website_description':
+            case 'zero_four_website_description':
               var x_caret = document.getElementById('zero_four_website_caret');
               var x_caption = document.getElementById('zero_four_website_caption');
               var x_brief = document.getElementById('zero_four_website_brief');
@@ -59,7 +59,7 @@
 
               break;
 
-            case id == 'tree_pick_up_description':
+            case 'tree_pick_up_description':
               var x_caret = document.getElementById('tree_pick_up_caret');
               var x_caption = document.getElementById('tree_pick_up_caption');
               var x_brief = document.getElementById('tree_pick_up_brief');
@@ -74,9 +74,6 @@
               var z_caption = document.getElementById('zero_four_website_caption');
               var z_brief = document.getElementById('zero_four_website_brief');
 
-              break;
-
-            default:
               break;
 
           }
@@ -146,9 +143,9 @@
                 <div class="caption" id="volume_by_speed_caption">
                   <h1>Volume by Speed</h1>
                   <span><i class="fa fa-caret-down" id="volume_by_speed_caret"></i></span>
+                  <span><a href="volumebyspeed.php"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></span>
                   <div class="brief" id="volume_by_speed_brief">
                     <p>"Volume by Speed" is a mobile app I built that is available on the google play store. The app will increase your phone's volume as your speed increases. It currently has over 100 downloads and continues to grow everyday.</p>
-                    <a href="">click here to see more</a>
                   </div>
                 </div>
               </section>
@@ -161,9 +158,9 @@
                 <div class="caption" id="zero_four_website_caption">
                   <h1>zerofour.tech</h1>
                   <span><i class="fa fa-caret-down" id="zero_four_website_caret"></i></span>
+                  <span><a href="zerofourwebsite.php"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></span>
                   <div class="brief" id="zero_four_website_brief">
                     <p>zerofour.tech is the website you're on right now! It was made as a center for Zero Four and showcases all my past and current projects. It's built mostly in HTML and CSS but uses a little bit of PHP.</p>
-                    <a href="">click here to see more</a>
                   </div>
                 </div>
               </section>
@@ -176,9 +173,9 @@
                 <div class="caption" id="tree_pick_up_caption">
                   <h1>Tree Pick Up</h1>
                   <span><i class="fa fa-caret-down" id="tree_pick_up_caret"></i></span>
+                  <span><a href="treepickup.php"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></span>
                   <div class="brief" id="tree_pick_up_brief">
                     <p>"Troop 582 Tree Pick Up" was a mock website for my boy scout troop to assist with a fundraiser and my first notable coding project. It taught me a lot more than coding in javascript and HTML; it was about learning how to research and work productively.</p>
-                    <a href="">click here to see more</a>
                   </div>
                 </div>
               </section>
@@ -187,19 +184,16 @@
         </ul>
         <div class="projects_about" id="projects_about">
           <div class="description" id="volume_by_speed_description">
-            <h1>Volume by Speed</h1>
-            <p class="full_description">"Volume by Speed" is a mobile app I built that is currently available on the google play store for free. The app will increase your phone's media volume as your speed increases, and the rate at which your volume increases can be adjusted. This could be useful for counteracting road noise when driving, or wind noise when biking. "Volume by Speed" was published in January 2022 and as of October 2022 has over 100 active downloads. I have spent hundreds of hours building this app from front to back, and from start to finish (although I still work on it occasionally). Altogether I have enjoyed building the app, learning java, and familiarizing myself with the process of app development. I continue to enjoy the positive (and negative) feedback I get on how they like the app or how they think it could be improved. </p>
-            <a href="#">click here to see more</a>
+            <h1><a href="volumebyspeed.php">Volume by Speed <i class="fa-solid fa-arrow-up-right-from-square"></i></a></h1>
+            <p class="full_description">"Volume by Speed" is a mobile app I built that is currently available on the google play store for free. The app will increase your phone's media volume as your speed increases, and the rate at which your volume increases can be adjusted. This could be useful for counteracting road noise when driving, or wind noise when biking. "Volume by Speed" was published in January 2022 and as of October 2022 has over 100 active downloads. I have spent hundreds of hours building this app from front to back, and from start to finish (although I still work on it occasionally). Altogether I have enjoyed building the app, learning java, and familiarizing myself with the process of app development. I continue to enjoy the positive (and negative) feedback I get on how they like the app or how they think it could be improved.</p>
           </div>
           <div class="description" id="zero_four_website_description">
-            <h1>zerofour.tech</h1>
+            <h1><a href="zerofourwebsite.php">zerofour.tech <i class="fa-solid fa-arrow-up-right-from-square"></i></a></h1>
             <p class="full_description">zerofour.tech is the website you're looking at right now! It was made as a center for Zero Four and showcases all my past and current projects. It's built mostly in HTML and CSS but uses a little bit of PHP. The website is simple and small and didn't take an extreme amount of time to make but I'm still proud of it. I didn't love web development when I built and put this website up in January 2022 but working on it now in October 2022, I enjoy it. I plan to continuously improve it and keep it up to date with my projects and career but nothing extreme.</p>
-            <a href="#">click here to see more</a>
           </div>
           <div class="description" id="tree_pick_up_description">
-            <h1>Tree Pick Up</h1>
+            <h1><a href="treepickup.php">Tree Pick Up <i class="fa-solid fa-arrow-up-right-from-square"></i></a></h1>
             <p class="full_description">"Troop 582 Tree Pick Up" was my first notable coding project. It was a mock website made to assist with fundraiser for my Boy Scout Troop. Instead of driving down every street in our area, people in the community would submit their address to the website for us to come pick up their tree. The most difficult part was creating a way for users to submit their addresses and making sure they were close enough to qualify for pick up. The website used an SQL database that would store addresses and used a google maps API and some algebra to determine if the address was within our community. Unfortunately, the project never made it to production. This project taught me a lot more than just how to write javascript or HTML; it was about learning how to program. I learned how to effectively research, learn, and work productively. My success from this project is likely what propelled me to start other projects and ultimately major in computer science.</p>
-            <a href="#">click here to see more</a>
           </div>
           <div class="description" id="about_projects">
             <h1>My Projects</h1>

@@ -44,11 +44,8 @@
 
 .caption h1 {
   font-family: "Roboto";
-  font-size: 2.8vw;
+  font-size: 3.2vw;
   padding-top: 1%;
-}
-
-.caption p {
 }
 
 .projects li section span {
@@ -82,7 +79,7 @@
   to {width: 28%;}
 }
 
-.projects li section span i {
+.caption span i {
   padding-bottom: 1%;
   text-align: center;
   font-size: 4.4vw;
@@ -97,6 +94,12 @@
 @keyframes rotate_down {
   from {-webkit-transform: rotate(180deg);}
   to {-webkit-transform: rotate(0deg);}
+}
+
+span .fa-solid.fa-arrow-up-right-from-square {
+  margin-left: 80%;
+  padding-bottom: 4%;
+  font-size: 2.2vw;
 }
 
 .brief {

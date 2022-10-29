@@ -1,7 +1,6 @@
 <html>
   <head>
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="header_footer/header_style.css">
   </head>
   <body>
@@ -15,14 +14,6 @@
             <a href="about.php"><li>About</li></a>
             <a href="contact.php"><li>Contact</li></a>
           </ul>
-          <!-- <ul class="dropdown">
-            <li><i class="fa fa-bars"></i>
-              <ul class="dropdown_navigation">
-                <a href="about.php"><li>About</li></a>
-                <a href="contact.php"><li>Contact</li></a>
-              </ul>
-            </li>
-          </ul> -->
         </div>
       </div>
     </header>

@@ -49,9 +49,15 @@
   right: 0;
 }
 
-.caption span i {
+.fa.fa-caret-down{
   text-align: center;
   font-size: 15vw;
+}
+
+.fa-solid.fa-arrow-up-right-from-square {
+  margin-left: 80%;
+  margin-bottom: 2vw;
+  font-size: 10vw;
 }
 
 @keyframes rotate_up {

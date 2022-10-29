@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
+}
+
+title {
+  width: 100%;
+  height: auto;
+}
+
+main {
+  width: 90%;
+  margin: auto;
+}
+
+main h1 {
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 64px;
+  padding: 18px;
+}
+
+main p {
+  font-family: "Roboto";
+  font-size: 24px;
+}
