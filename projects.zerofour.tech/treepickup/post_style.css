@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
+}
+
+.post {
+  display: block;
+  border-style: solid;
+  width: 97.523%;
+  margin: 6 auto;
+  background-color: #E6E6E6;
+  border-radius: 10px;
+  border-color: #A4A4A4;
+}
+
+.post p {
+  font-family: Arial;
+  padding: 6px;
+  font-size: 16px;
+}
+
+.post h1 {
+  Padding: 6px;
+  font-family: "Roboto";
+  font-size: 24px;
+}
+
+.post img {
+  width: 98%;
+  margin: 10 1%;
+  max-width: 400px;
+}
+
+.post a {
+  padding-left: 0px;
+  padding-right: 0px;
+  color: Blue;
+  text-decoration: underline;
+  font-family: "Arial"
+}
+
+.post form input {
+  margin: 6px;
+  padding: 6px;
+
+}
+
+.post form button {
+  padding: 6px;
+  margin: 6px;
+  border-radius: 4px;
+}

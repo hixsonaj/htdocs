@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
+}
+
+.header{
+    width: 100%;
+    height: 80px;
+    display: block;
+    background-color: OliveDrab;
+}
+
+.inner_header{
+  width: 90%;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.logo_container_header {
+  height: 100%;
+  display: table;
+  float: left;
+}
+
+.logo_container_header h1{
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  font-family: "Roboto";
+  font-size: 32px;
+  color: white;
+}
+
+.navigation{
+  float: right;
+  height: 100%;
+}
+
+.navigation a{
+  height: 100%;
+  display: table;
+  float: left;
+  padding: 0px 20px;
+}
+
+.navigation a li{
+  display: table-cell;
+  vertical-align: middle;
+  height: 100%;
+  color: white;
+  font-family: "Roboto";
+  font-size: 18px;
+}
+
+.navigation a:last-child{
+  padding-right: 0;
+}
+
+.dropdown {
+  display: block;
+  float: right;
+  position: relative;
+}
+
+.dropdown li {
+  display: block;
+  padding: 20px 30px;
+  color: white;
+  font-family: "Roboto";
+}
+
+.dropdown li i {
+  font-size: 40px;
+  padding-left: 160px;
+  padding-bottom: 20px;
+}
+
+.dropdown li ul {
+  display: none;
+  position: absolute;
+  background-color: OliveDrab;
+}
+
+.dropdown li ul li:hover{
+  background-color: #025A31;
+}
+
+.dropdown li:hover ul {
+  display: block;
+}
+
+.dropdown li ul li {
+  width: 200px;
+}
+
+@media(max-width: 720px){
+  .navigation {
+    display: none;
+  }
+}
+
+@media(min-width: 720px){
+  .dropdown {
+    display: none;
+  }
+}

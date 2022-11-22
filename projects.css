@@ -23,7 +23,37 @@ main h1 {
   padding: 18px;
 }
 
-main p {
+section {
+  padding: 12px;
+}
+
+.Asection {
+  display: inline-block;
+  width: 75%;
+  vertical-align: top;
+
+}
+
+.Bsection {
+  display: inline-block;
+  width: 24%;
+}
+
+section p {
   font-family: "Roboto";
   font-size: 24px;
+}
+
+section h2 {
+  font-family: "Roboto";
+  font-size: 32px;
+}
+
+section a{
+  text-decoration: underline;
+  text-decoration-color: blue;
+}
+
+section img{
+  max-width: 400px;
 }
