@@ -5,6 +5,8 @@
     <title>Alex Hixson @ Zero Four Tech</title>
     <link rel="stylesheet" href="index.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2701820106710934"
+     crossorigin="anonymous"></script>
   </head>
   <body>
 		<header>
@@ -38,7 +40,6 @@
         <picture>
           <img src="index_pictures/20221121_190805.jpg" alt="BROCKHAMPTON ENDS AT THE FONDA">
         </picture>
-        <h1>NICK WHERE ARE THE HOES AT???</h1>
       </div>
     </main>
 	</body>
