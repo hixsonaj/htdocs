@@ -1,7 +1,7 @@
 <?php
   if(isset($_POST['address_input'])){
     $address = str_replace(" ","+",$_POST['address_input']) . "+WA" ."+USA";
-    $combine = "https://maps.googleapis.com/maps/api/geocode/json?address=" . $address . "&key=AIzaSyBWiyy7525I_u0SUjvYj_rWnVXjWHxXn-8";
+    $combine = "https://maps.googleapis.com/maps/api/geocode/json?address=" . $address . "**HIDDEN_KEY**";
     $request = file_get_contents($combine);
     $decode = json_decode($request, true);
     echo $decode["results"][0]["geometry"]["location"]["lat"] . "<br/>";
