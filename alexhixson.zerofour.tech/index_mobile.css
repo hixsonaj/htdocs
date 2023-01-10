@@ -1,25 +1,24 @@
 *{
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  text-decoration: none;
+margin: 0;
+padding: 0;
+list-style: none;
+text-decoration: none;
 }
 
 header{
-  width: 100%;
-  height: 80px;
-  display: block;
-  background-color: #101010;
-  position: fixed;
-  z-index: 100;
+width: 100%;
+height: 80px;
+display: block;
+background-color: #101010;
+position: fixed;
 }
 
 .inner_header{
-  width: 100%;
-  height: 100%;
-  display: block;
-  margin: 0 auto;
-  text-align: center;
+width: 100%;
+height: 100%;
+display: block;
+margin: 0 auto;
+text-align: center;
 }
 
 .logo_container{
@@ -44,24 +43,7 @@ font-size: 48px;
 }
 
 .navigation{
-display: inline-block;
-height: 100%;
-}
-
-.navigation a{
-height: 100%;
-display: table;
-float: left;
-padding: 0 32px;
-}
-
-.navigation a li{
-display: table-cell;
-vertical-align: middle;
-height: 100%;
-color: white;
-font-family: "Roboto";
-font-size: 16px;
+display: none;
 }
 
 .banner_notification {
@@ -76,59 +58,55 @@ height: 100%;
 text-align: center;
 }
 
+
+
+
+
+
 .alex_hixson {
-display: block;
 width: 80%;
-height: 400px;
-margin: 80px auto;
+height: 1000px;
+margin: 40px auto;
 background: grey;
-text-align: center;
 }
 
+  
 .image{
-float: left;
-display: block;
-height: 100%;
-width: 400px;
-background-size: 400px;
-background-image: url("index_pictures/alex_hixson_main.jpg");
+  height: 80vw;
+  overflow: hidden;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-image: url("index_pictures/alex_hixson_main.jpg");
 }
-
+  
 .alex_hixson:hover .image {
-background-image: url("index_pictures/alex_hixson_hover.jpg");
+  background-image: url("index_pictures/alex_hixson_hover.jpg");
 }
-
+  
 .alex_hixson .main{
-  position: relative;
   display: block;
+  position: relative;
   height: 100%;
   color: white;
   font-family: Roboto;
 }
-
+  
 .alex_hixson .main h1 {
-  padding-top: 32px;
+  text-align: center;
   margin: 32px auto;
   font-size: 54px;
 }
-
+  
 .alex_hixson .main p {
+  text-align: center;
   font-size: 18px;
   width: 90%;
   translate: 5%;
   padding: 10px;
 }
-
-@media (max-width: 1192px){
-  .alex_hixson .main .links {
-    display: none;
-  }
-}
-
+  
 .alex_hixson .main .links {
-  position: absolute;
-  bottom: 0px;
-  left: 45%;
+  text-align: center;
 }
 
 .alex_hixson .main .links i {

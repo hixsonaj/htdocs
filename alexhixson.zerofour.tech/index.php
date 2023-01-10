@@ -3,8 +3,10 @@
   <head>
     <meta charset="utf-8">
     <title>Alex Hixson @ Zero Four Tech</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" media="screen and (min-width: 767px)" href="index.css" />
+    <link rel="stylesheet" media="screen and (max-width: 766px)" href="index_mobile.css" />
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/bfeca9258e.js" crossorigin="anonymous"></script>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2701820106710934"
      crossorigin="anonymous"></script>
   </head>
@@ -12,55 +14,34 @@
 		<header>
       <div class="inner_header">
         <ul class="navigation">
-					<a><li>Home</li></a>
-					<a><li>Blog</li></a>
+					<a href="http://alexhixson.com"><li>Home</li></a>
+					<a href="http://alexhixson.com"><li>Blog</li></a>
 				</ul>
 				<div class="logo_container">
-					<a><h1>ALEX HIXSON</h1></a>
+					<a href="http://alexhixson.com"><h1>ALEX HIXSON</h1></a>
 				</div>
 				<ul class="navigation">
-					<a><li>About</li></a>
-					<a><li>Contact</li></a>
+					<a href="http://alexhixson.com"><li>About</li></a>
+					<a href="http://alexhixson.com"><li>Contact</li></a>
 				</ul>
 			</div>
     </header>
     <main>
-      <div class="broke_warning">
-        <!-- <p>Attention: Alex is Broke!</p>
-        <p>He cannot afford to host alexhixson.com and instead redirects it to here,</p>
-        <p>if you'd like to support the cause you can venmo him: @alex-hixson-04</p> -->
+      <div class="banner_notification">
+        <!-- <p></p> -->
       </div>
-
-
-
-
-
-
-
-
-
-
-      <div class="headlines">
-        <div class="personal_headlines">
-          <img src="index_pictures/image_1.jpg" alt="Me and the boys on the BH couch">
-          <h1>Personal Blog</h1>
-        </div>
-        <div class="profesional_headlines">
-          <img src="index_pictures/IMG_3509.jpg" alt="BROCKHAMPTON">
-          <h1>Profesional Blog</h1>
+      <div class="alex_hixson">
+        <div class="image"></div>  
+        <div class="main">
+          <h1>Alex Hixson</h1>
+          <p>"I aspire to have lots of cars and friends"</p>
+          <p>San Diego State Undergrad Student persuing Computer Science; Car Enthusiast; Aspiring Nerd; BROCKHAMPTON fanboy</p>
+          <div class="links">
+            <a href="http://alexhixson.com"><i class="fa-solid fa-link"></i>ALEXHIXSON.COM</a>
+            <a href="http://zerofour.tech/"><i class="fa-solid fa-link"></i>ZEROFOUR.TECH</a>
+          </div>
         </div>
       </div>
-
-
-
-
-
-
-
-
-
-
-
       <div class="main_main">
         <div class="comments">
           <div class="text_box">
@@ -68,24 +49,21 @@
               <p>Name:</p>
               <input type="text" name="name" id="comment">
               <br>
-              <p>Leave a Comment:</p>
+              <p>Comment:</p>
               <input type="text" name="comment" id="address_input">
               <br>
               <button type="submit" name="submit">Submit</button>
             </form>
           </div>
           <?php
-            $con = mysqli_connect('localhost','root','', 'comments');
-
+            include 'sqlconnect.php';
 
             $data = $con->query('SELECT COUNT(*) AS num FROM `comments`') or die(mysql_error());
             $row = $data->fetch_assoc();
             $numUsers = $row['num'];
-            echo "<br>Total Comments:" . $numUsers . "<br><br>";
-
             echo "<ul>";
 
-            for ($i=$numUsers; $i > $numUsers-10 ; $i--) {
+            for ($i=$numUsers; $i > $numUsers-100; $i--) {
               $sql = "SELECT name, comment FROM comments WHERE id=$i";
               $query = $con->query($sql);
               $comment = $query->fetch_assoc();
