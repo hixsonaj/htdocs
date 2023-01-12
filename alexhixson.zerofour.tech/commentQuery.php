@@ -5,8 +5,19 @@
     echo 'Not connected to server!';
   }
 
-  $name = $_POST['name'];
-  $comment = $_POST['comment'];
+  function RemoveSpecialChar($str) {
+ 
+    // Using str_replace() function
+    // to replace the word
+    $string = str_replace( array( '\'', '"',
+    ',' , ';', '<', '>' ), ' ', $str);
+
+    // Returning the result
+    return $string;
+  }
+
+  $name = RemoveSpecialChar($_POST['name']);
+  $comment = RemoveSpecialChar($_POST['comment']);
 
   $sql = "INSERT INTO comments (name,comment) VALUES ('$name','$comment')";
   if(!mysqli_query($con,$sql)) {

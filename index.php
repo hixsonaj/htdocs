@@ -1,7 +1,7 @@
 <html>
   <head>
     <title>Zero Four</Title>
-    <meta name="description" content="Do you need your Christmas tree picked up. We can help you learn how.">
+    <meta name="description" content="Tech Company">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://kit.fontawesome.com/bfeca9258e.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" media="screen and (min-width: 767px)" href="index.css" />

@@ -2,13 +2,11 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Alex Hixson @ Zero Four Tech</title>
+    <title>Alex Hixson</title>
     <link rel="stylesheet" media="screen and (min-width: 767px)" href="index.css" />
     <link rel="stylesheet" media="screen and (max-width: 766px)" href="index_mobile.css" />
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/bfeca9258e.js" crossorigin="anonymous"></script>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2701820106710934"
-     crossorigin="anonymous"></script>
   </head>
   <body>
 		<header>
@@ -35,7 +33,7 @@
         <div class="main">
           <h1>Alex Hixson</h1>
           <p>"I aspire to have lots of cars and friends"</p>
-          <p>San Diego State Undergrad Student persuing Computer Science; Car Enthusiast; Aspiring Nerd; BROCKHAMPTON fanboy</p>
+          <p>San Diego State Undergrad Student pursuing Computer Science; Car Enthusiast; Aspiring Nerd; BROCKHAMPTON fanboy</p>
           <div class="links">
             <a href="http://alexhixson.com"><i class="fa-solid fa-link"></i>ALEXHIXSON.COM</a>
             <a href="http://zerofour.tech/"><i class="fa-solid fa-link"></i>ZEROFOUR.TECH</a>
@@ -63,7 +61,7 @@
             $numUsers = $row['num'];
             echo "<ul>";
 
-            for ($i=$numUsers; $i > $numUsers-100; $i--) {
+            for ($i=$numUsers; $i > $numUsers-10; $i--) {
               $sql = "SELECT name, comment FROM comments WHERE id=$i";
               $query = $con->query($sql);
               $comment = $query->fetch_assoc();

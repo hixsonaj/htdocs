@@ -1,7 +1,7 @@
 <html>
   <head>
     <title>Zero Four</Title>
-    <meta name="description" content="Do you need your Christmas tree picked up. We can help you learn how.">
+    <meta name="description" content="Description of the Tree Pick Up Project">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://kit.fontawesome.com/bfeca9258e.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="projects.css">
