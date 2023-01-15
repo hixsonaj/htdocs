@@ -4,13 +4,13 @@
     <meta name="description" content="Tech Company">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://kit.fontawesome.com/bfeca9258e.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" media="screen and (min-width: 767px)" href="index.css" />
-    <link rel="stylesheet" media="screen and (max-width: 766px)" href="index_mobile.css" />
+    <link rel="stylesheet" media="screen and (min-width: 767px)" href="resources/index.css" />
+    <link rel="stylesheet" media="screen and (max-width: 766px)" href="resources/index_mobile.css" />
   </head>
   <body>
     <header>
       <?php
-        include 'header_footer/header.php';
+        include './resources/header_footer/header.php';
       ?>
     </header>
     <main>
@@ -139,7 +139,7 @@
           <li id="volume_by_speed">
             <button onclick="toggleDesc('volume_by_speed_description')" type="button" name="button">
               <section>
-                <img src="index_images/app_logo.png" alt="Zero Four App Logo">
+                <img src="resources/index_images/app_logo.png" alt="Zero Four App Logo">
                 <div class="caption" id="volume_by_speed_caption">
                   <h1>Volume by Speed</h1>
                   <span><i class="fa fa-caret-down" id="volume_by_speed_caret"></i></span>
@@ -154,7 +154,7 @@
           <li id="zero_four_website">
             <button onclick="toggleDesc('zero_four_website_description')" type="button" name="button">
               <section>
-                <img src="index_images/zero_four_website_logo.png" alt="Zero Four Website Logo">
+                <img src="resources/index_images/zero_four_website_logo.png" alt="Zero Four Website Logo">
                 <div class="caption" id="zero_four_website_caption">
                   <h1>zerofour.tech</h1>
                   <span><i class="fa fa-caret-down" id="zero_four_website_caret"></i></span>
@@ -169,7 +169,7 @@
           <li id="tree_pick_up">
             <button onclick="toggleDesc('tree_pick_up_description')" type="button" name="button">
               <section>
-                <img src="index_images/tree_pick_up_website_logo.png" alt="Tree Pick Up Webstie Logo">
+                <img src="resources/index_images/tree_pick_up_website_logo.png" alt="Tree Pick Up Webstie Logo">
                 <div class="caption" id="tree_pick_up_caption">
                   <h1>Tree Pick Up</h1>
                   <span><i class="fa fa-caret-down" id="tree_pick_up_caret"></i></span>
@@ -204,7 +204,7 @@
     </main>
     <footer>
       <?php
-        include 'header_footer/footer.php';
+        include 'resources/header_footer/footer.php';
       ?>
     </footer>
   </body>

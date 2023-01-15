@@ -4,12 +4,12 @@
     <meta name="description" content="Description of the Volume by Speed android app project">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://kit.fontawesome.com/bfeca9258e.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="projects.css">
+    <link rel="stylesheet" href="resources/projects.css">
   </head>
   <body>
     <header>
       <?php
-        include 'header_footer/header.php';
+        include 'resources/header_footer/header.php';
       ?>
     </header>
     <main>
@@ -21,7 +21,7 @@
           <p>The app is exclusive to the google play store and runs on Android 8 and higher. As of November 2022, the app has 130 active downloads and a 3-star rating. I’ve made some changes since first publishing it and there are more to come, but I don't plan to spend much more time on this project. I really enjoyed building the app despite the many hours and difficulties.</p>
         </div>
         <div class="Bsection">
-          <img src="project_images/volume_by_speed/app_logo.png" alt="App logo">
+          <img src="resources/project_images/volume_by_speed/app_logo.png" alt="App logo">
         </div>
       </section>
       <section id="history">
@@ -31,7 +31,7 @@
           <p>After publishing, I took a break for a while before coming revisiting it for an update. There were a couple bugs to fix and I add a banner ad to the bottom so I could make some money. I spent a couple of weeks on these fixes and published the update in August 2022. Since then, I’ve started college and haven't had as much time or motivation to work on the app, but I do plan on releasing an update in January 2023. *See more in Future Goals</p>
         </div>
         <div class="Bsection">
-          <img src="project_images/volume_by_speed/old_app_logo.jpg" alt="Old App Logo">
+          <img src="resources/project_images/volume_by_speed/old_app_logo.jpg" alt="Old App Logo">
         </div>
       </section>
       <section id="technical">
@@ -42,7 +42,7 @@
           <p>It works on SDK versions 26 and higher (Android 8.0) and has been tested on all Android versions between Android 8 and 13.</p>
         </div>
         <div class="Bsection">
-          <img src="project_images/volume_by_speed/app_screenshot.jpg" alt="App app_screenshot">
+          <img src="resources/project_images/volume_by_speed/app_screenshot.jpg" alt="App app_screenshot">
         </div>
       </section>
       <section id="success">
@@ -53,8 +53,8 @@
           <p>With update 1.2.0 I added a banner ad across the bottom of the screen. In the 4 months since that update was published the ad has brought in about $3; of which I cannot access until I meet the $100 threshold (so I probably won't get paid for a while). However, I am optimistic that the January 2023 update will bring new users.</p>
         </div>
         <div class="Bsection">
-          <img src="project_images/volume_by_speed/positive_review.png" alt="Positive Review">
-          <img src="project_images/volume_by_speed/helpful_review.png" alt="Helpful review">
+          <img src="resources/project_images/volume_by_speed/positive_review.png" alt="Positive Review">
+          <img src="resources/project_images/volume_by_speed/helpful_review.png" alt="Helpful review">
         </div>
       </section>
       <section id="limitations">
@@ -78,7 +78,7 @@
     </main>
     <footer>
       <?php
-        include 'header_footer/footer.php';
+        include 'resources/header_footer/footer.php';
       ?>
     </footer>
   </body>

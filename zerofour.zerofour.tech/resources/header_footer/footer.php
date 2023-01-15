@@ -1,7 +1,7 @@
 <html>
   <head>
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="header_footer/footer_style.css">
+    <link rel="stylesheet" type="text/css" href="resources/header_footer/footer_style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>

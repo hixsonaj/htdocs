@@ -1,7 +1,7 @@
 <html>
   <head>
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="header_footer/header_style.css">
+    <link rel="stylesheet" type="text/css" href="resources/header_footer/header_style.css">
   </head>
   <body>
     <header>

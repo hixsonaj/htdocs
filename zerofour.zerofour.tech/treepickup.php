@@ -4,12 +4,12 @@
     <meta name="description" content="Description of the Tree Pick Up Project">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://kit.fontawesome.com/bfeca9258e.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="projects.css">
+    <link rel="stylesheet" href="resources/projects.css">
   </head>
   <body>
     <header>
       <?php
-        include 'header_footer/header.php';
+        include 'resources/header_footer/header.php';
       ?>
     </header>
     <main>
@@ -17,7 +17,7 @@
       <section id="section">
         <h2>Summary</h2>
         <p>"Troop 582 Tree Pick Up" was my first notable coding project. It was a website that would allow you to mark your address for a Christmas tree pick up if you were inside of a designated area. It was an unrealistic goal and was never finished but it was fun to build something with a purpose.</p>
-        <p>You can view and example of the website <a href="projects.zerofour.tech/treepickup">HERE</a></p>
+        <p>You can view and example of the website <a href="http://archive.zerofour.tech/treepickup">HERE</a></p>
         <p>*note that the google maps geocoding API has been disabled as it is not free</p>
       </section>
       <section id="history">
@@ -35,7 +35,7 @@
     </main>
     <footer>
       <?php
-        include 'header_footer/footer.php';
+        include 'resources/header_footer/footer.php';
       ?>
     </footer>
   </body>

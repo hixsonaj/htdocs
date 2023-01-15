@@ -4,12 +4,12 @@
     <meta name="description" content="Description of the Zero Four Website Project">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://kit.fontawesome.com/bfeca9258e.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="projects.css">
+    <link rel="stylesheet" href="resources/projects.css">
   </head>
   <body>
     <header>
       <?php
-        include 'header_footer/header.php';
+        include 'resources/header_footer/header.php';
       ?>
     </header>
     <main>
@@ -39,7 +39,7 @@
     </main>
     <footer>
       <?php
-        include 'header_footer/footer.php';
+        include 'resources/header_footer/footer.php';
       ?>
     </footer>
   </body>

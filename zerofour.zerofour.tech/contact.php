@@ -10,7 +10,7 @@
       ?>
     </header>
     <main>
-      <link rel="stylesheet" type="text/css" href="about_contact.css">
+      <link rel="stylesheet" type="text/css" href="resources/about_contact.css">
       <div class="post" id="Zero_Four">
         <h1>Zero Four Contact</h1>
         <p>General Questions and Support Email: <a href="mailto:support@zerofour.tech">support@zerofour.tech</a></p>
