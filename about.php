@@ -6,11 +6,11 @@
   <body>
     <header>
       <?php
-        include 'header_footer/header.php';
+        include 'resources/header_footer/header.php';
       ?>
     </header>
     <main>
-      <link rel="stylesheet" type="text/css" href="resources/about_contact.css">
+      <link rel="stylesheet" type="text/css" href="about_contact.css">
         <div class="post">
           <h1>About Zero Four</h1>
           <p>Zero Four is an LLC registered in Washington State. Zero Four is a platform for me (Alex Hixson) to showcase my projects and career progression. Currently, there's no defined purpose behind it, but if you want you could call it a tech startup. It's just me running everything, so things move slowly, but I try to always be working on something.</p>
@@ -22,7 +22,7 @@
     </main>
     <footer>
       <?php
-        include 'header_footer/footer.php';
+        include 'resources/header_footer/footer.php';
       ?>
     </footer>
   </body>
