@@ -33,7 +33,7 @@
         <div class="main">
           <h1>Alex Hixson</h1>
           <p>"I aspire to have lots of cars and friends"</p>
-          <p>San Diego State Undergrad Student pursuing Computer Science; Car Enthusiast; Aspiring Nerd; BROCKHAMPTON fanboy</p>
+          <p>San Diego State Undergrad Student studying Computer Science; Car Enthusiast; Aspiring Nerd; BROCKHAMPTON fanboy; </p>
           <div class="links">
             <a href="http://alexhixson.com"><i class="fa-solid fa-link"></i>ALEXHIXSON.COM</a>
             <a href="http://zerofour.tech/"><i class="fa-solid fa-link"></i>ZEROFOUR.TECH</a>
@@ -42,6 +42,7 @@
       </div>
       <div class="main_main">
         <div class="comments">
+          <h3 id="comments_header">Comments</h3>
           <div class="text_box">
             <form action="commentQuery.php" method="post">
               <p>Name:</p>

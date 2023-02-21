@@ -80,7 +80,7 @@ text-align: center;
 display: block;
 width: 80%;
 height: 400px;
-margin: 80px auto;
+margin: 60px auto;
 background: grey;
 text-align: center;
 }
@@ -94,7 +94,7 @@ background-size: 400px;
 background-image: url("index_pictures/alex_hixson_main.jpg");
 }
 
-.alex_hixson:hover .image {
+.alex_hixson:hover .image{
 background-image: url("index_pictures/alex_hixson_hover.jpg");
 }
 
@@ -144,9 +144,13 @@ background-image: url("index_pictures/alex_hixson_hover.jpg");
   border-radius: 10px;
 }
 
+
+
 .comments {
 width: 80%;
 margin: 0 10%;
+background-color: lightgrey;
+border-radius: 50px;
 }
 
 .comments .text_box p {
@@ -162,6 +166,8 @@ margin: 0 10%;
 .comments li {
 margin: 16px 0;
 background-color: lightgrey;
+border-color: #101010;
+border-width: 5px;
 border-radius: 5px;
 padding: 5px;
 }

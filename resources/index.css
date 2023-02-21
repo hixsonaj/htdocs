@@ -18,9 +18,9 @@
 
 .projects li {
   vertical-align: top;
-  width: 28%;
-  padding-left: 0.7%;
-  padding-right: 0.7%;
+  width: 20%;
+  padding-left: 2%;
+  padding-right: 2%;
   display: inline-block;
   padding-top: 18px;
   padding-bottom: 18px;
@@ -125,35 +125,32 @@ span .fa-solid.fa-arrow-up-right-from-square {
   margin-right: auto;
 }
 
+
+
+.div {
+  display: block;
+  text-align: center;
+  background-color: blueviolet;
+  width: 75%;
+}
+
 .projects_about {
   display: block;
-  margin: 18px auto;
   width: 75%;
-  background-color: white;
-  height: 500px;
-  overflow: hidden;
 }
 
 .description {
   display: none;
-  overflow: hidden;
-  position: absolute;
-  width: 75%;
-  z-index: 1;
-  background: white;
 }
 
 #about_projects {
   display: block;
-  z-index: 0;
 }
 
-@keyframes reveal {
-  from {height: 0;}
-  to {height: 500px;}
-}
 
-@keyframes hide {
-  from {height: 500px;}
-  to {height: 0;}
-}
+.description {
+  
+  display: block;
+  width: 75%;
+  margin: auto;
+} 
